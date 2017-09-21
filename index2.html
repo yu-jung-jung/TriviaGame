@@ -5,57 +5,72 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Patrick+Hand+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
+
 <body>
 	
 	<h1> Rick and Morty Trivia! </h1>
 
 
-	<div id = "container">
+	<div container>
+		
+		<div id="box">
 
 		 <div id ="display">Time Remaining = <span id="timer"></span></div>
 
 
+	<form name="quiz">
 
-		<h2> 1. What was Rick's favorite exhibit in Anatomy Park?</h2>
+		<p>1. What was Rick's favorite exhibit in Anatomy Park?<br>
+		<input type="radio" name="q1" value="The Bone Train">The Bone Train<br>
+		<input type="radio" name="q1" value="Spleen Mountain">Spleen Mountain<br>
+		<input type="radio" name="q1" value="Bladder Falls">Bladder Falls<br>
+		<input type="radio" name="q1" value="Priates of the Pancreas!">Priates of the Pancreas<br>
+		</p>
 
-		<input type="radio" name="chk_info" value="The Bone Train">The Bone Train
-		<input type="radio" name="chk_info" value="Spleen Mountain"> Spleen Mountain
-		<input type="radio" name="chk_info" value="Bladder Falls">Bladder Falls
-		<input type="radio" name="chk_info" value="Priates of the Pancreas">Priates of the Pancreas!
+		<p>
+		2. In the pilot, why did Rick want to blow up earth?<br>
+		<input type="radio" name="q2" value="He wanted a clean start!">He wanted a clean start<br>
+		<input type="radio" name="q2" value="He wanted accomplish something">He wanted accomplish something<br>
+		<input type="radio" name="q2" value="He was bored">He was bored<br>
+		<input type="radio" name="q2" value="He was angry">He was angry<br>
+		</p>
+
+		<p>
+		3. What does "wubaluba dub dub" mean in bird person language?<br>
+		<input type="radio" name="q3" value="I will kill you">I will kill you<br>
+		<input type="radio" name="q3" value="I don't like you">I don't like you<br>
+		<input type="radio" name="q3" value="I am in great pain!">I am in great pain<br>
+		<input type="radio" name="q3" value="None of the above">None of the above<br>
+		</p>
+
+		<p>
+		4. What is Scary Terry's child named?<br>
+		<input type="radio" name="q4" value="Scary Jerry">Scary Jerry<br>
+		<input type="radio" name="q4" value="Scary Brandon!">Scary Brandon<br>
+		<input type="radio" name="q4" value="Scary Larry">Scary Larry<br>
+		<input type="radio" name="q4" value="Scary Brad">Scary Brad<br>
+		</p>
+
+		<p>
+		5. How long did Rick leave Beth?<br>
+		<input type="radio" name="q5" value="20 years!">20 years<br>
+		<input type="radio" name="q5" value="30 years">30 years<br>
+		<input type="radio" name="q5" value="10 years">10 years<br>
+		<input type="radio" name="q5" value="5 year">5 year<br>
+		</p>
+
+		<input type="button" value="DONE!" onClick="location.href = 'index3.html'">
 		
-		<h2> 2. In the pilot, why did Rick want to blow up earth? </h2>
-
-		<input type="radio" name="chk_info" value="He wanted a clean start"> He wanted a clean start!
-		<input type="radio" name="chk_info" value="He wanted to accomplish something"> He wanted accomplish something
-		<input type="radio" name="chk_info" value="He was bored"> He was bored
-		<input type="radio" name="chk_info" value="He was angry"> He was angry
-
-		<h2> 3. What does "wubaluba dub dub" mean in bird person language? </h2>
-
-		<input type="radio" name="chk_info" value="I will kill you">I will kill you
-		<input type="radio" name="chk_info" value="I am in great pain"> I am in great pain!
-		<input type="radio" name="chk_info" value="I don't like you"> I don't like you
-		<input type="radio" name="chk_info" value="None of the above"> None of the above
-
-		<h2> 4. What is Scary Terry's child named?</h2>
-
-		<input type="radio" name="chk_info" value="Scary Jerry">Scary Jerry
-		<input type="radio" color= "white" name="chk_info" value="Scary Brandon"> Scary Brandon!
-		<input type="radio" name="chk_info" value="Scary Larry">Scary Larry
-		<input type="radio" name="chk_info" value="Scary Brad"> Scary Brad
-
-		<h2> 5. How long did Rick leave Beth?</h2>
-
-		<input type="radio" name="chk_info" value="20 years">20 years!
-		<input type="radio" name="chk_info" value="30 years"> 30 years
-		<input type="radio" name="chk_info" value="10 years"> 10 years
-		<input type="radio" name="chk_info" value="5 years"> 5 year
+	</form>
 
 	</div>
+
+</div>
 
 	<script type="text/javascript" src="assets/js/app.js"></script>
 
